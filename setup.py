@@ -7,17 +7,20 @@ import os
 if os.path.exists('MANIFEST'): os.remove('MANIFEST')
 
 from distutils.core import setup
+import setuptools
 
 setup(name='wmic',
       version='0.1',
       description='WMI client',
-      packages=['wmic'],
+      license="MIT",
+      author="David Lundgren",
+      author_email="dlundgren@syberisle.net",
       include_package_data=True,
       install_requires=[
+          'natsort',
           'pyasn1',
           'pycrypto',
           'impacket',
-          'natsort'
       ],
       scripts=[os.path.join('scripts', 'wmic')]
       )
