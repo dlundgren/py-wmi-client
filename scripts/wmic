@@ -109,6 +109,8 @@ class WmiClient(object):
             except Exception, e:
                 if e.get_error_code() != wmi.WBEMSTATUS.WBEM_S_FALSE:
                     raise
+                else:
+                    break
 
     def query_and_print(self, wql, **kwargs):
         """
