@@ -1,8 +1,8 @@
 Python WMI Client
 =================
 
-[![Current version on PyPI](http://img.shields.io/pypi/v/wmic.svg)][pypi]
-[![Downloads/month on PyPI](http://img.shields.io/pypi/dm/wmic.svg)][pypi]
+[![Current version on PyPI](http://img.shields.io/pypi/v/wmic.svg)](https://pypi.python.org/pypi/wmic)
+[![Downloads/month on PyPI](http://img.shields.io/pypi/dm/wmic.svg)](https://pypi.python.org/pypi/wmic)
 
 Communicate with Windows machines via WMI from *nix machines.
 
